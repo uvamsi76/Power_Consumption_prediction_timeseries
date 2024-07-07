@@ -49,7 +49,7 @@ def update_and_predict(train,test,ftsc):
     a['unique_id']=train['unique_id']
     a['y']=a['trend']
     a=a.dropna().reset_index(drop=True)
-    ftsc.ts.update(a)
+    # ftsc.ts.update(a)
     # ftsc.fit(a)
 
 
